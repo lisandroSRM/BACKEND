@@ -15,6 +15,7 @@ require_once realpath('./vendor/autoload.php');
     if ($conexion != True) {
         echo "CONEXION FALLIDA";
     }else {
+        echo " ";
         echo "CONEXION EXITOSA";
     }
 ?>
